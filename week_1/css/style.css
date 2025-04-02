@@ -1,0 +1,24 @@
+.bg-red {
+    background-color: red;
+
+}
+.text-red {
+    color:red;
+
+}
+.text-blue {
+    color:blue;
+
+}
+.text-cyan {
+    color:cyan;
+
+}
+
+.image100 { 
+    height:100px;
+    width:100px;
+    object-fit: cover;
+}
+
+

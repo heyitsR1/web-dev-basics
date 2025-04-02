@@ -1,0 +1,35 @@
+* {
+    background-color: black;
+    color:red;
+}
+.title{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 45px;
+
+}
+
+.nav { 
+    display:flex;   
+    flex-direction: row;
+    justify-content: center; 
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+.nav li {
+    margin: 0 15px;
+    list-style: none;
+}
+.test_ronaldo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
