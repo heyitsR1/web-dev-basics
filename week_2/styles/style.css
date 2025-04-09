@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: azure;
+
+}
+
+nav {
+    background-color: aqua;
+    padding: 5px 5px;
+
+}
+.navbar {
+    list-style: none;
+    display:flex;
+    gap:12px;
+}
+ul a:hover {
+    text-decoration: none;
+    color:red;
+
+}
+
+a{
+
+}
+ul a{
+    text-decoration:none;
+}
