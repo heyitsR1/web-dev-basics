@@ -53,7 +53,6 @@ a:hover {
     background-image: url("../images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 
@@ -61,7 +60,7 @@ a:hover {
     height: 100%;
     width: 100%;
     background-color: papayawhip;
-    opacity: 30%;
+    opacity: 100%;
 }
 
 .hero-section__wrapper h1 {
@@ -73,6 +72,7 @@ a:hover {
 }
 
 .button-wrapper {
+    COLOR:red;
     display: flex;
     justify-content: center;
 }
@@ -148,21 +148,5 @@ footer {
     bottom:100px;
 }
 .go_to_top svg {
-
-}
-.position-relative {
-    position:relative;
-    background-color: blue;
-    margin:50px;
-    
-}
-.position-absolute svg{
-    position:absolute;
-    top:50%;
-    left:50%;
-    height:200px;
-    width:200px;
-    /* background-color: red; */
-    transform: translate(-50%,-50%);
 
 }
