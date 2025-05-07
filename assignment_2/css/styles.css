@@ -125,13 +125,34 @@ blockquote cite {
     padding: 60px 30px;
 }
 
+
 .assignment-link-card {
     border: 1px solid #ccc;
     width: 45%;
     height: 200px;
     border-radius: 5px;
     background-color: #f9f9f9;
-}
+    overflow: hidden;
+  }
+  
+  .assignment-link-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
+      display: block;
+      border-radius: 5px; 
+      opacity:30%;
+    }
+#id_card img { 
+          opacity:100%;
+        }
+    
+  center h2 {
+    font-style: italic;
+    margin-top: 75px;
+    padding: auto;
+    color:azure;
+  }
 
 footer {
     background-color: rgba(8, 8, 8, 0.454);
