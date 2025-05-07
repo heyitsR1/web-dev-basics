@@ -61,8 +61,7 @@ a:hover {
 
 .hero-section__wrapper {
     border-radius: 5px;
-
-    height: 25%;
+    min-height: 25%;
     width: 25%;
     background-color: mintcream;
     opacity: 100%;
@@ -173,8 +172,4 @@ footer {
     /* background-color: red; */
     transform: translate(-50%,-50%);
 
-}
-.wh-100{
-    width:100px;
-    height:100px;
 }
