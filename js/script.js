@@ -86,3 +86,35 @@ console.table (arrr)
 
 arrr.unshift("DakuDasKaranxa")
 console.table (arrr)
+
+
+// ____________________________________________________________
+// Week 4: 
+//     Learnt about DOM and DOM Manipulation
+//     Learnt about getELement
+//     Learnt about Query Selector
+// ____________________________________________________________
+
+const main = document.getElementById("hello")
+main.innerText = "Rajesh dai is a gunda!"
+console.log (main)
+
+const dain = document.getElementsByClassName("main-class")[0]
+dain.innerText = "Yo ho ho ho, merry christmas"
+console.log (dain.innerText)
+
+
+const my_class = document.getElementsByClassName("new-class")
+
+my_class[0].innerText = " Hello First"
+my_class[1].innerText = " Hello Second"
+my_class[2].innerHTML = " <i>Hello Third</i>"
+
+const jkjk = document.querySelector(".new-class")
+jkjk.innerText = "Hello from Query Selector"
+
+const divElement = document.querySelector('div.abc')
+const anchor = document.querySelector('div .abc')
+
+divElement.innerHTML = "<b>divElement</b>"
+anchor.style.color ="red";
