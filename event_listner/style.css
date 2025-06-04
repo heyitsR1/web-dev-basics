@@ -1,0 +1,25 @@
+.wrapper { 
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    gap: 10px;
+}
+button { 
+    border:0cqh
+
+
+}
+.increase_button { 
+    background-color:green;
+    color: white;
+}
+.decrease_button { 
+    background-color:red;
+    color: white;
+}
+
+p {
+    border-style: dotted;
+    border-radius: 0px;
+    padding:10px;
+}

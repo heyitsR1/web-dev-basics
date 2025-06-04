@@ -118,3 +118,32 @@ const anchor = document.querySelector('div .abc')
 
 divElement.innerHTML = "<b>divElement</b>"
 anchor.style.color ="red";
+
+// ____________________________________________________________
+// Week 5: 
+//     Learnt about Querty Selector All
+//     Learnt about .style to change style of HTML elements from JS
+//     Learnt about Event Listners
+// ____________________________________________________________
+console.log ("Debugs")
+const text_elements = document.querySelectorAll('.wrapper .text')
+const text_elements_length = text_elements.length
+
+console.log('yyhyhyyh',text_elements_length)
+
+for (let i = 0; i < text_elements_length; i++)
+{   console.log(text_elements[i])
+    if (i==0) {
+        text_elements[i].style.backgroundColor = 'red'
+    }
+}
+
+text_elements.forEach((text_element,index) => { 
+    console.log (text_element,index)
+    if (index == 0) {
+        text_element.style.backgroundColor = "teal";
+    } else if ( index == 1) { 
+        text_element.style.backgroundColor = "blue";
+    }
+    
+})
