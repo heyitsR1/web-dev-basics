@@ -3,10 +3,10 @@
     align-items:center;
     justify-content:center;
     gap: 10px;
+    flex-direction:column;
 }
 button { 
     border:0cqh
-
 
 }
 .increase_button { 
@@ -22,4 +22,56 @@ p {
     border-style: dotted;
     border-radius: 0px;
     padding:10px;
+}
+
+.color-section {
+    border: 1px solid navajowhite;
+    height:300px;
+    width:50%;
+    padding:0 25 25 0;
+}
+.wrapper_2 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper_4 {
+    margin-top:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper_3 {
+    margin-top: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    
+}
+.wrapper_5 {
+    margin-top: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    
+}
+.color_button{ 
+    border-color: red;
+    background-color: azure;
+    color:purple;
+}
+#calculate_button{ 
+    border-color: white;
+    background-color: yellow;
+    color:black;
+}
+#play_button { 
+    background-color:green;
+    color: white;
+}
+#pause_button { 
+    background-color:red;
+    color: white;
 }
