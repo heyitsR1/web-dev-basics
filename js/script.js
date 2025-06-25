@@ -147,3 +147,6 @@ text_elements.forEach((text_element,index) => {
     }
     
 })
+
+
+

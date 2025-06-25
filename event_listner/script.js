@@ -83,8 +83,28 @@ window.addEventListener('DOMContentLoaded', () => {
 //    button.style.backgroundColor = "blueviolet"
 // })
 
-
+// Today we learnt more about event listners
 
 window.addEventListener("load", () => {
-    console.log ("Resources laoded")
+    console.log ("Resources loaded")
 })
+
+const goToTop = document.getElementById("goToTop");
+window.addEventListener('scroll', () => {
+    if (window.scrollY < 100) {
+        goToTop.classList.remove("isActive")
+    } else {
+        goToTop.classList.add("isActive")
+    }
+})
+
+
+const navButton = document.getElementById("navButton");
+const navPane = document.querySelector('.nav-Pane');
+
+
+navButton.addEventListener('click', () => {
+    navPane.classList.toggle('pane-Active')
+})
+
+

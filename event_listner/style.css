@@ -19,7 +19,7 @@ button {
 }
 
 p {
-    border-style: dotted;
+    border-style: solid;
     border-radius: 0px;
     padding:10px;
 }
@@ -74,4 +74,68 @@ p {
 #pause_button { 
     background-color:red;
     color: white;
+}
+.goToTop {
+    position: fixed; 
+    right: 40px;
+    bottom: -100px; 
+    background-color: rgb(192,181,1);
+    padding: auto;
+    cursor:pointer; 
+
+}
+.goToTop.isActive {
+    position: fixed; 
+    right: 40px;
+    bottom: 100px; 
+    background-color: rgb(192,181,1);
+    padding: auto;
+    cursor:pointer; 
+
+}
+.nav-Pane {
+    position: fixed;
+    right: -200px;
+    bottom: 100px;
+    background-color: whitesmoke;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.nav-Pane.pane-Active {
+    transform: translateX(0%);
+    right: 40px;
+}
+
+.nav-Pane p {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.nav-Pane p:hover {
+    color: plum;
+}
+
+.navButton {
+    position: fixed;
+    top: 50px;
+    right: 40px;
+    background-color: wheat;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.navButton:hover {
+    background-color: rgb(245, 241, 184);
 }
