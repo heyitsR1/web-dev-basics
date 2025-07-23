@@ -19,3 +19,5 @@ build/
 # Ignore log files
 *.log
 .DS_Store
+
+/music_player

@@ -1,0 +1,22 @@
+•⁠  ⁠{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fade-in {
+    opacity: 0;
+    transform: translate(50px, 0);
+    padding: 200px 0;
+    font-size: 30px;
+}
+
+.spacer {
+    height: 300vh;
+    background-color: black;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
